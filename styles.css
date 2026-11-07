@@ -126,7 +126,7 @@ main {
   display: block;
 }
 
-.app-icon--large {
+.app-card__thumb img.app-icon--large {
   width: 95px;
   height: 95px;
 }
