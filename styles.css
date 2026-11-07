@@ -185,3 +185,15 @@ main {
   color: #bfdbfe;
   text-decoration: underline;
 }
+
+.footer__note {
+  display: inline-block;
+  margin-left: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #f59e0b;
+  background-color: #fef3c7;
+  padding: 0.15rem 0.5rem;
+  border-radius: 0.25rem;
+  vertical-align: middle;
+}
