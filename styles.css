@@ -126,6 +126,11 @@ main {
   display: block;
 }
 
+.app-icon--large {
+  width: 95px;
+  height: 95px;
+}
+
 .app-card__body {
   padding: 1.25rem;
   display: flex;
