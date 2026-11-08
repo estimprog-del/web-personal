@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://estimprog-del.github.io/web-personal/sitemap.xml

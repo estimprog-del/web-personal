@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#111827" />
   <title>estimprog | Web Personal</title>
+  <link rel="preconnect" href="https://play.google.com" crossorigin />
   <meta name="description" content="Portafolio y directorio de aplicaciones del desarrollador estimprog" />
   <link rel="stylesheet" href="styles.css" />
   <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
@@ -52,6 +54,7 @@
   </script>
 </head>
 <body>
+  <a href="#main" class="skip-link">Saltar al contenido</a>
 
   <header class="header">
     <div class="container">
@@ -60,20 +63,20 @@
     </div>
   </header>
 
-  <main class="container">
+  <main class="container" id="main">
     <section class="apps-grid" aria-label="Mis aplicaciones">
 
       <!-- Tarjeta 1: TestOPE -->
       <article class="app-card">
         <div class="app-card__thumb">
-          <img src="assets/icons/testope.svg" alt="TestOPE" class="app-icon">
+          <img src="assets/icons/testope.svg" alt="TestOPE" class="app-icon" loading="lazy">
         </div>
         <div class="app-card__body">
           <h2 class="app-card__title">TestOPE</h2>
           <p class="app-card__desc">
             Preparación de oposiciones OPE Osakidetza: tests, simulacros y plantillas de respuestas.
           </p>
-          <a href="https://estimprog-del.github.io/TestOPE/" class="btn btn--primary" target="_blank" rel="noopener noreferrer">
+          <a href="https://estimprog-del.github.io/TestOPE/" class="btn btn--primary" target="_blank" rel="noopener noreferrer" aria-label="Abrir TestOPE en una nueva pestaña">
             Abrir TestOPE
           </a>
         </div>
@@ -82,14 +85,14 @@
       <!-- Tarjeta 2: Rodillo Interactivo de Ciclismo -->
       <article class="app-card">
         <div class="app-card__thumb">
-          <img src="assets/icons/icon-512.webp" alt="Rodillo" class="app-icon">
+          <img src="assets/icons/icon-512.webp" alt="Rodillo" class="app-icon" loading="lazy">
         </div>
         <div class="app-card__body">
           <h2 class="app-card__title">Rodillo Interactivo de Ciclismo</h2>
           <p class="app-card__desc">
             Aplicación web para rodillo interactivo de ciclismo.
           </p>
-          <a href="https://estimprog-del.github.io/rodillo/" class="btn btn--primary" target="_blank" rel="noopener noreferrer">
+          <a href="https://estimprog-del.github.io/rodillo/" class="btn btn--primary" target="_blank" rel="noopener noreferrer" aria-label="Abrir Rodillo Interactivo de Ciclismo en una nueva pestaña">
             Abrir Rodillo
           </a>
         </div>
@@ -98,14 +101,14 @@
       <!-- Tarjetas de Google Play Store -->
       <article class="app-card">
         <div class="app-card__thumb">
-          <img src="assets/icons/sportwinds.webp" alt="SportWinds" class="app-icon">
+          <img src="assets/icons/sportwinds.webp" alt="SportWinds" class="app-icon" loading="lazy">
         </div>
         <div class="app-card__body">
           <h2 class="app-card__title">SportWinds</h2>
           <p class="app-card__desc">
             Aplicación de vientos para navegantes y deportes náuticos.
           </p>
-          <a href="https://play.google.com/store/apps/details?id=com.estimco.sportwinds&utm_source=emea_Med" class="btn btn--primary" target="_blank" rel="noopener noreferrer">
+          <a href="https://play.google.com/store/apps/details?id=com.estimco.sportwinds&utm_source=emea_Med" class="btn btn--primary" target="_blank" rel="noopener noreferrer" aria-label="Ver SportWinds en Google Play">
             Ver en Google Play
           </a>
         </div>
@@ -113,14 +116,14 @@
 
       <article class="app-card">
         <div class="app-card__thumb">
-          <img src="assets/icons/meteo.webp" alt="MeteoApp" class="app-icon">
+          <img src="assets/icons/meteo.webp" alt="MeteoApp" class="app-icon" loading="lazy">
         </div>
         <div class="app-card__body">
           <h2 class="app-card__title">MeteoApp</h2>
           <p class="app-card__desc">
             Aplicación de meteorología con predicciones del tiempo.
           </p>
-          <a href="https://play.google.com/store/apps/details?id=com.estimco.meteoapp&utm_source=emea_Med" class="btn btn--primary" target="_blank" rel="noopener noreferrer">
+          <a href="https://play.google.com/store/apps/details?id=com.estimco.meteoapp&utm_source=emea_Med" class="btn btn--primary" target="_blank" rel="noopener noreferrer" aria-label="Ver MeteoApp en Google Play">
             Ver en Google Play
           </a>
         </div>
@@ -128,14 +131,14 @@
 
       <article class="app-card">
         <div class="app-card__thumb">
-          <img src="assets/icons/letradni.webp" alt="LetraDNI" class="app-icon">
+          <img src="assets/icons/letradni.webp" alt="LetraDNI" class="app-icon" loading="lazy">
         </div>
         <div class="app-card__body">
           <h2 class="app-card__title">LetraDNI NIF NIE</h2>
           <p class="app-card__desc">
             Calcula la letra de tu DNI, NIF o NIE de forma rápida.
           </p>
-          <a href="https://play.google.com/store/apps/details?id=com.estimprog.letradni_nif_nie&utm_source=emea_Med&pli=1" class="btn btn--primary" target="_blank" rel="noopener noreferrer">
+          <a href="https://play.google.com/store/apps/details?id=com.estimprog.letradni_nif_nie&utm_source=emea_Med&pli=1" class="btn btn--primary" target="_blank" rel="noopener noreferrer" aria-label="Ver LetraDNI NIF NIE en Google Play">
             Ver en Google Play
           </a>
         </div>
@@ -143,14 +146,14 @@
 
       <article class="app-card">
         <div class="app-card__thumb">
-          <img src="assets/icons/medidasbici.webp" alt="Medidas Bici Plus" class="app-icon">
+          <img src="assets/icons/medidasbici.webp" alt="Medidas Bici Plus" class="app-icon" loading="lazy">
         </div>
         <div class="app-card__body">
           <h2 class="app-card__title">Medidas Bici Plus</h2>
           <p class="app-card__desc">
             Calcula las medidas de tu bicicleta para un ajuste perfecto.
           </p>
-          <a href="https://play.google.com/store/apps/details?id=appinventor.ai_estimco.medidas_bici_plus&utm_source=emea_Med" class="btn btn--primary" target="_blank" rel="noopener noreferrer">
+          <a href="https://play.google.com/store/apps/details?id=appinventor.ai_estimco.medidas_bici_plus&utm_source=emea_Med" class="btn btn--primary" target="_blank" rel="noopener noreferrer" aria-label="Ver Medidas Bici Plus en Google Play">
             Ver en Google Play
           </a>
         </div>
@@ -158,20 +161,30 @@
 
       <article class="app-card app-card--dev">
         <div class="app-card__thumb">
-          <img src="assets/screenshots/unnamed.webp" alt="Perfil desarrollador" class="app-icon app-icon--large">
+          <img src="assets/screenshots/unnamed.webp" alt="Perfil desarrollador" class="app-icon app-icon--large" loading="lazy">
         </div>
         <div class="app-card__body">
           <h2 class="app-card__title">Perfil de desarrollador</h2>
           <p class="app-card__desc">
             Todas las aplicaciones móviles publicadas por estimprog.
           </p>
-          <a href="https://play.google.com/store/apps/dev?id=5243922855067374490" class="btn btn--primary" target="_blank" rel="noopener noreferrer">
+          <a href="https://play.google.com/store/apps/dev?id=5243922855067374490" class="btn btn--primary" target="_blank" rel="noopener noreferrer" aria-label="Ver perfil de desarrollador en Google Play">
             Ver en Google Play
           </a>
         </div>
       </article>
 
     </section>
+
+    <!--
+      PENDIENTE - Capturas de pantalla de las apps (punto 8):
+      Añadir <img class="app-screenshot" src="assets/screenshots/..." alt="Captura de ..."> dentro de cada
+      <article class="app-card"> justo después de la miniatura del icono. Clase CSS .app-screenshot ya definida en styles.css.
+
+      PENDIENTE - Enlaces a repositorios GitHub de cada app (punto 9):
+      Añadir <a href="..." class="app-github-link" target="_blank" rel="noopener noreferrer">Ver código</a>
+      dentro de cada <article class="app-card"> junto a los demás enlaces. Clase CSS .app-github-link ya definida.
+    -->
   </main>
 
   <footer class="footer">
@@ -180,6 +193,7 @@
         &copy; <span id="year"></span> &middot;
         <a href="mailto:estimprog@gmail.com" class="footer__link">estimprog@gmail.com</a> &middot;
         <a href="https://github.com/estimprog-del" class="footer__link" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <button class="footer__btn" id="btn-share" aria-label="Compartir esta página">📤 Compartir</button>
         <span class="footer__note">🚧 Página en obras</span>
       </p>
     </div>

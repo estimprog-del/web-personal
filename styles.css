@@ -40,6 +40,24 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Skip to content (accesibilidad) */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  background: #111827;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  z-index: 1000;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 0 0 0.5rem 0.5rem;
+  transition: top 0.2s ease;
+}
+.skip-link:focus {
+  top: 0;
+}
+
 /* Utilidades */
 .container {
   width: 100%;
@@ -213,4 +231,33 @@ main {
   padding: 0.15rem 0.5rem;
   border-radius: 0.25rem;
   vertical-align: middle;
+}
+
+.footer__btn {
+  background: transparent;
+  border: 1px solid #93c5fd;
+  color: #93c5fd;
+  padding: 0.15rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+  transition: all 0.2s ease;
+}
+.footer__btn:hover {
+  background: #93c5fd;
+  color: #111827;
+}
+
+/* Reservado para capturas de pantalla de las apps (pendiente de añadir imágenes) */
+.app-screenshot {
+  /* Añadir aquí los estilos cuando se disponga de las capturas reales */
+  display: none;
+}
+
+/* Reservado para enlaces a repositorios GitHub de cada app (pendiente de añadir URLs) */
+.app-github-link {
+  /* Añadir aquí los estilos cuando se disponga de los enlaces */
+  display: none;
 }
