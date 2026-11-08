@@ -3,15 +3,59 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>estimprog-del | Web Personal</title>
-  <meta name="description" content="Portafolio y directorio de aplicaciones del desarrollador estimprog-del" />
+  <title>estimprog | Web Personal</title>
+  <meta name="description" content="Portafolio y directorio de aplicaciones del desarrollador estimprog" />
   <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://estimprog-del.github.io/web-personal/" />
+  <meta property="og:title" content="estimprog | Web Personal" />
+  <meta property="og:description" content="Portafolio y directorio de aplicaciones del desarrollador estimprog" />
+  <meta property="og:image" content="https://estimprog-del.github.io/web-personal/assets/screenshots/unnamed_opt.webp" />
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:creator" content="@estimprog" />
+  <meta name="twitter:title" content="estimprog | Web Personal" />
+  <meta name="twitter:description" content="Portafolio y directorio de aplicaciones del desarrollador estimprog" />
+  <meta name="twitter:image" content="https://estimprog-del.github.io/web-personal/assets/screenshots/unnamed_opt.webp" />
+
+  <!-- Datos estructurados JSON-LD (SEO) -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "estimprog",
+      "url": "https://estimprog-del.github.io/web-personal/",
+      "email": "estimprog@gmail.com",
+      "jobTitle": "Desarrollador de software",
+      "sameAs": [
+        "https://github.com/estimprog-del"
+      ]
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "estimprog | Web Personal",
+      "url": "https://estimprog-del.github.io/web-personal/",
+      "description": "Portafolio y directorio de aplicaciones del desarrollador estimprog",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://estimprog-del.github.io/web-personal/",
+        "query-input": "required"
+      }
+    }
+  </script>
 </head>
 <body>
 
   <header class="header">
     <div class="container">
-      <h1 class="logo">estimprog-del</h1>
+      <h1 class="logo">estimprog</h1>
       <p class="subtitle">Aplicaciones y proyectos del desarrollador</p>
     </div>
   </header>
@@ -38,7 +82,7 @@
       <!-- Tarjeta 2: Rodillo Interactivo de Ciclismo -->
       <article class="app-card">
         <div class="app-card__thumb">
-          <img src="assets/icons/icon-512.png" alt="Rodillo" class="app-icon">
+          <img src="assets/icons/icon-512.webp" alt="Rodillo" class="app-icon">
         </div>
         <div class="app-card__body">
           <h2 class="app-card__title">Rodillo Interactivo de Ciclismo</h2>
@@ -119,7 +163,7 @@
         <div class="app-card__body">
           <h2 class="app-card__title">Perfil de desarrollador</h2>
           <p class="app-card__desc">
-            Todas las aplicaciones móviles publicadas por estimprog-del.
+            Todas las aplicaciones móviles publicadas por estimprog.
           </p>
           <a href="https://play.google.com/store/apps/dev?id=5243922855067374490" class="btn btn--primary" target="_blank" rel="noopener noreferrer">
             Ver en Google Play
